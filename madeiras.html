@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Sons</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Reprodutor de Sons</h1>
+        
+    </header>
+    <main>
+       <a href="index.html"><span class="texto-seta-voltar"><img src="img/seta-voltar.png" alt="botão-voltar" class="seta-voltar">Voltar</span></a>
+        <h2>Família das Madeiras</h2>
+        <section>
+            <div>
+                <img src="img/imagem-sax.jpg" alt="Imagem Saxofone" class="img_botao_saxofone desativado img">
+                <button class="botao botao_saxofone">Saxofone</button>
+            </div>
+            <div>
+                <img src="img/imagem-clarinete.jpg" alt="Imagem Clarinete" class="img_botao_clarinete desativado img">
+                <button class="botao botao_clarinete">Clarinete</button>
+            </div>
+            <div>
+                <img src="img/imagem-flauta.jpg" alt="Imagem Violão" class="img_botao_flauta desativado img">
+                <button class="botao botao_flauta">Flauta</button>
+            </div>
+            <div>
+                <img src="img/imagem-fagote.jpg" alt="Imagem Fagote" class="img_botao_fagote desativado img">
+                <button class="botao botao_fagote">Fagote</button>
+            </div>
+        </section>
+        
+    </main>
+    
+    <audio src="sounds/Saxofone.wav" id="som_botao_saxofone"></audio>
+    <audio src="sounds/Clarinete.wav" id="som_botao_clarinete"></audio>
+    <audio src="sounds/Flauta.wav" id="som_botao_flauta"></audio>
+    <audio src="sounds/Fagote.wav" id="som_botao_fagote"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Sons</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Reprodutor de Sons</h1>
+       
+    </header>
+    <main>
+       <a href="index.html"><span class="texto-seta-voltar"><img src="img/seta-voltar.png" alt="botão-voltar" class="seta-voltar">Voltar</span></a>
+        <h2>Família das Cordas</h2>
+        <section>
+            <div>
+                <img src="img/Imagem-violino.jpg" alt="Imagem Violino" class="img_botao_violino desativado img">
+                <button class="botao botao_violino">Violino</button>
+            </div>
+            <div>
+                <img src="img/Imagem-harpa.jpg" alt="Imagem Harpa" class="img_botao_harpa desativado img">
+                <button class="botao botao_harpa">Harpa</button>
+            </div>
+            <div>
+                <img src="img/Imagem-violao.jpg" alt="Imagem Violão" class="img_botao_violao desativado img">
+                <button class="botao botao_violao">Violão</button>
+            </div>
+            <div>
+                <img src="img/Imagem-violoncelo.jpg" alt="Imagem Violoncelo" class="img_botao_violoncelo desativado img">
+                <button class="botao botao_violoncelo">Violoncelo</button>
+            </div>
+        </section>
+        
+    </main>
+    
+    <audio src="sounds/Violino.wav" id="som_botao_violino"></audio>
+    <audio src="sounds/Harpa.wav" id="som_botao_harpa"></audio>
+    <audio src="sounds/Violao.wav" id="som_botao_violao"></audio>
+    <audio src="sounds/Violoncelo.wav" id="som_botao_violoncelo"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

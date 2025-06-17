@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Sons</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Reprodutor de Sons</h1>
+        
+    </header>
+    <main>
+       <a href="index.html"><span class="texto-seta-voltar"><img src="img/seta-voltar.png" alt="botão-voltar" class="seta-voltar">Voltar</span></a>
+        <h2>Família dos Metais</h2>
+        <section>
+            <div>
+                <img src="img/imagem-trompete.jpg" alt="Imagem Trompete" class="img_botao_trompete desativado img">
+                <button class="botao botao_trompete">Trompete</button>
+            </div>
+            <div>
+                <img src="img/imagem-trompa.jpg" alt="Imagem Trompa" class="img_botao_trompa desativado img">
+                <button class="botao botao_trompa">Trompa</button>
+            </div>
+            <div>
+                <img src="img/imagem-trombone.jpg" alt="Imagem Trombone" class="img_botao_trombone desativado img">
+                <button class="botao botao_trombone">Trombone</button>
+            </div>
+            <div>
+                <img src="img/imagem-tuba.jpg" alt="Imagem Tuba" class="img_botao_tuba desativado img">
+                <button class="botao botao_tuba">Tuba</button>
+            </div>
+        </section>
+        
+    </main>
+    
+    <audio src="sounds/Trompete.wav" id="som_botao_trompete"></audio>
+    <audio src="sounds/Trompa.wav" id="som_botao_trompa"></audio>
+    <audio src="sounds/Trombone.wav" id="som_botao_trombone"></audio>
+    <audio src="sounds/Tuba.wav" id="som_botao_tuba"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
