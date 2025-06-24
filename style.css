@@ -36,8 +36,8 @@ header{
     border: 0;
     border-bottom: 5px;
     border-style: solid;
-    background-image: url(img/fundo-som10.jpg);
-    background-position: top;
+    background-image: url(img/fundo-som7.jpg);
+    background-position: bottom;
     background-size: cover;
 }
 header h1{
